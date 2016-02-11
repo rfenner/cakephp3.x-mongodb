@@ -1,0 +1,24 @@
+{
+    "name": "your-name-here/NoSql",
+    "description": "NoSql plugin for CakePHP",
+    "type": "cakephp-plugin",
+    "require": {
+        "php": ">=5.4",
+        "cakephp/plugin-installer": "*",
+        "cakephp/cakephp": "3.0.x-dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "NoSql\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NoSql\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    }
+}
